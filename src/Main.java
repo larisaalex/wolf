@@ -5,7 +5,7 @@ public class Main {
 
         int percent = 20;
 
-        int bonus = amount / percent * 1;
+        int bonus = amount / percent;
 
         System.out.println("Итоговый бонус: " + bonus);
     }
